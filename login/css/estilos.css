@@ -1,0 +1,39 @@
+#caja {
+	background: #ccc;
+	width: 200px;
+	margin: 200px auto;
+	padding: 1em;
+	border-radius: 3px;
+}
+
+h1,h2,h3,h4 {
+	font-family: arial;
+	color: #0080ff;
+}
+
+input[type=text], input[type=password] {
+	margin: 0 0 1em 0;
+	width: 150px;
+	border: 0;
+	padding: 1em;
+	border-radius: 3px;
+}
+
+input[type=submit], form a {
+	padding: 1em;
+	background: #0080ff;
+	border: none;
+	color: white;
+	font-family: Arial Black;
+	font-size: 14px;
+	border-radius: 3px;
+	text-decoration: none;
+}
+ input[type=submit], form a:hover {
+ 	background: #0040ff;
+ 	cursor: pointer;
+ }
+
+ body {
+ 	background: #999;
+ }
